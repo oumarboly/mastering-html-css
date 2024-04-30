@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #100e0f;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+  color: white;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+li a {
+  color: white;
+}
+nav li a {
+  text-decoration: none;
+}
+li a:hover {
+  border-bottom: solid rgb(231, 151, 12) 2px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-one {
+  position: relative;
+  height: 100vh;
+  background-image: url("Images/pexels-nao-triponez-129207.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.section-one-first-title {
+  position: absolute;
+  top: 121px;
+  font-size: 70px;
+}
+
+.section-one-second-title {
+  position: absolute;
+  bottom: 25px;
+  font-size: 70px;
+}
+.section-one .main-btn {
+  position: absolute;
+  color: white;
+  padding: 10px;
+  top: 625px;
+  background-color: orange;
+  border: none;
+  border-radius: 1px;
+}
+.section-two {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+.section-two-first-title {
+  color: white;
+  font-size: 70px;
+}
+.section-two-p {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-right: 300px;
+}
+.section-two .main-btn {
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 1px;
+  padding: 10px;
+}
+.section-two-img {
+}
+.section-two-right {
+  position: relative;
+  top: 80px;
+}
+
+.section-three {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.section-three-left {
+  margin-right: 400px;
+  position: relative;
+  top: 90px;
+  left: 100px;
+  height: 300px;
+}
+.section-three-first-title {
+  color: white;
+  font-size: 60px;
+}
+.section-three-img {
+  position: relative;
+  right: 100px;
+}
+.section-three-img img {
+  width: 40Opx;
+  height: 400px;
+}
+.section-three .main-btn {
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 1px;
+  padding: 10px;
+}
+.section-three-p {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.section-four {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 80px;
+}
+.section-four-left {
+  border: 2px solid yellow;
+  height: 67vh;
+  width: 292px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.section-four-img img {
+  width: 104px;
+  height: 104px;
+}
+.section-four-img {
+  position: absolute;
+  top: -52px;
+}
+.section-four-element {
+  border: 2px solid yellow;
+  border-radius: 5px;
+  height: 67vh;
+  width: 292px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.section-four-first-title {
+  color: white;
+  font-size: 70px;
+  padding-top: 150px;
+  padding-left: 60px;
+  padding-bottom: 65px;
+}
+.section-four-second-title {
+  color: white;
+  position: absolute;
+  top: 92px;
+}
+.section-four-p {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  position: relative;
+  top: 10px;
+}
+.section-four-p span {
+  display: block;
+}
+.section-four .main-btn {
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 1px;
+  position: absolute;
+  bottom: 10px;
+  padding: 5px;
+}
+.section-five {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.section-five-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-five-first-title {
+  color: white;
+  position: relative;
+  top: 30px;
+  font-size: 35px;
+}
+.section-five-first-title span {
+  color: yellow;
+}
+.section-five-p {
+  color: white;
+  padding-top: 40px;
+  padding-left: 95px;
+  padding-right: 70px;
+  line-height: 25px;
+}
+.footer-p {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 140px;
+}
+
+border: 2px solid yellow;
